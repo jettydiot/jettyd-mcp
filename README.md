@@ -75,6 +75,10 @@ Add to your MCP config:
 
 Sign up at [jettyd.com](https://jettyd.com) and get your API key from the dashboard.
 
+## Complete Setup Guide
+
+New to jettyd? The [OpenClaw Blueprint](BLUEPRINT.md) walks through the complete setup in 6 steps — hardware, platform, OpenClaw connection, sensors, automations, and dashboard.
+
 ## Source
 
 [github.com/jettydiot/jettyd-mcp](https://github.com/jettydiot/jettyd-mcp)
