@@ -1,7 +1,7 @@
 {
   "name": "@jettyd/mcp",
   "version": "0.1.0",
-  "description": "MCP server for jettyd — connect AI agents to IoT devices",
+  "description": "MCP server for jettyd \u2014 connect AI agents to IoT devices (ESP32, sensors, actuators)",
   "type": "module",
   "bin": {
     "jettyd-mcp": "src/index.js"
@@ -15,13 +15,21 @@
     "iot",
     "esp32",
     "jettyd",
-    "ai",
-    "mqtt"
+    "ai-agents",
+    "mqtt",
+    "sensors",
+    "actuators"
   ],
-  "author": "jettyd",
+  "author": "jettyd (https://jettyd.com)",
   "license": "MIT",
   "dependencies": {
     "@modelcontextprotocol/sdk": "^1.27.1",
     "zod": "^4.3.6"
-  }
+  },
+  "mcpName": "io.github.jettydiot/jettyd",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jettydiot/jettyd-mcp.git"
+  },
+  "homepage": "https://jettyd.com"
 }
