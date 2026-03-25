@@ -1,7 +1,7 @@
 {
   "name": "@jettyd/mcp",
-  "version": "0.1.0",
-  "description": "MCP server for jettyd \u2014 connect AI agents to IoT devices (ESP32, sensors, actuators)",
+  "version": "0.1.1",
+  "description": "MCP server for jettyd — connect AI agents to IoT devices (ESP32, sensors, actuators)",
   "type": "module",
   "bin": {
     "jettyd-mcp": "src/index.js"
